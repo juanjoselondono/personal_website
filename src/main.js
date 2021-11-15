@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { BootstrapVue } from 'bootstrap-vue'
+import { BootstrapVue, BIcon, BIconInstagram, BIconTwitter, BIconTelephone, BIconGithub, BIconMusicNoteBeamed} from 'bootstrap-vue'
 import VueRouter from 'vue-router';
 import router from './router/index'
 Vue.use(VueRouter);
@@ -9,6 +9,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+Vue.component('BIcon', BIcon)
+Vue.component('BIconInstagramApp', BIconInstagram)
+Vue.component('BIconTwitterApp', BIconTwitter)
+Vue.component('BIconGithubApp', BIconGithub)
+Vue.component('BIconTelephoneIcon', BIconTelephone)
+Vue.component('BIconMusicNoteBeamed', BIconMusicNoteBeamed)
 
 new Vue({
   router,

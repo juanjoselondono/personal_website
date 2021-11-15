@@ -1,0 +1,18 @@
+<template>
+  <div class="projects">
+    <h1>Projects</h1>    
+    <div>
+      <b-embed
+        type="iframe"
+        aspect="16by9"
+        src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+        allowfullscreen
+      ></b-embed>
+    </div>
+  </div>
+</template>
+<script>
+  export default {
+    name: 'Project'
+  }
+</script>
