@@ -1,0 +1,50 @@
+[
+    {
+        "name":"TRG Rover",
+        "videoURI": "https://www.youtube.com/embed/cnvhR36UHYM",
+        "videoDescription":"This Tiny Rover uses a 180° servo motor to change FPV camera's position. It is controlled via Fly Sky controller, Powered by a 1800mAh battery it has a 1h battery range. ",
+        "Repository": "https://github.com/juanjoselondono/RoboCar",
+        "Author": "Juan José Londoño David",
+        "Images":"../../assets/projects-images/TRG_car/TRG_CAR.jpg",
+        "Specs":["Powered by Arduino", "balsa Wood Frame", "5v Geared Motor", "Bluetooth Lights Control"],
+        "sliderImages":["../../assets/projects-images/TRG_car/TRG_CAR.jpg"]
+    },
+    {
+        "name":"Electric Fighter Jet",
+        "videoURI":"https://www.youtube.com/embed/kVVY2sbykyo",
+        "videoDescription":"This foamboard RC plane, It's based on the Design of a Su-32 Fighter jet. The Su-32 is capable of effectively accomplishing the following combat tasks: high precision strikes against air, air defense, ground and sea targets.",
+        "Author": "Juan José Londoño David",
+        "Images":"../../assets/projects-images/FIGHTER_JET/portrait.jpg",
+        "sliderImages":["../../assets/projects-images/FIGHTER_JET/photo1.jpg","../../assets/projects-images/FIGHTER_JET/photo2.jpg"],
+        "Specs": ["2.4Hz Fly Sky Controller", "50cm Wing Span", "Foamboard Fuselage", "A2212 Brushless Motor", "8x4,5 Propeller"]
+    },
+    {
+        "name":"REMEMBER GAME",
+        "Author": "Juan José Londoño David",
+        "Images":"../../assets/images/black.png",
+        "Software": {
+            "description":"JS game made by Sacha Lyfsyc in a Platzi course. Modified by Juan José Londoño David",
+            "repo":"https://github.com/juanjoselondono/REMEMBER.GAME",
+            "website":"https://juanjoselondono.github.io/REMEMBER.GAME/",
+            "portrait": "../../assets/projects-images/REMEMBER_ME/REMEMBERME.png"
+        }
+    },
+    {
+        "name":"BRUNO",
+        "Author": "Juan José Londoño David",
+        "Images":"../../assets/images/black.png",
+        "Software": {
+            "description":"CVI, Command voice interface built with google's API Speech Recogniton and Speech Synthesis. It can be used to play videos on youtube, search content on wikipedia, get the time and in future versions it will have the capacity to assign custom commands.",
+            "repo":"https://github.com/juanjoselondono/B.R.U.N.O",
+            "website":"https://bruno-ai.herokuapp.com/",
+            "portrait": "../../assets/projects-images/BRUNO/UI.png"
+        }
+    },
+    {
+        "name":"Smart Glider",
+        "Author": "Juan José Londoño David",
+        "Images":"../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png",
+        "sliderImages":["../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider2.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider3.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png"],
+        "Specs": ["2.4Hz Fly Sky Controller", "50cm Wing Span", "Foamboard Fuselage", "A2212 Brushless Motor", "8x4,5 Propeller"]
+    }
+]
