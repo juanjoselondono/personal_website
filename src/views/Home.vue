@@ -14,7 +14,7 @@
       <b-card no-body class="overflow-hidden" style="padding; border-radius: 30px;">
         <b-row no-gutters>
           <b-col md="6" class="image_container">
-            <b-card-img src="../../assets/images/profile.jpg" alt="Image" class="info_image" style=""></b-card-img>
+            <b-card-img src="./assets/images/profile.jpg" alt="Image" class="info_image" style=""></b-card-img>
           </b-col>
           <b-col md="6" class="info">
             <b-card-body title="Hello! I Am Juan Londoño" class="description container">
