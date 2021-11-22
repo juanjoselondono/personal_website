@@ -46,5 +46,12 @@
         "Images":"../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png",
         "sliderImages":["../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider2.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider3.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png"],
         "Specs": ["2.4Hz Fly Sky Controller", "50cm Wing Span", "Foamboard Fuselage", "A2212 Brushless Motor", "8x4,5 Propeller"]
+    },
+    {
+        "name":"Minispeedster Plane",
+        "Images":"../../assets/images/black.png",
+        "Author": "Juan José Londoño David",
+        "sliderImages": ["../../assets/projects-images/MINI_SPEEDSTER/speedster.jpg"],
+        "Specs":["RC cardboard plane based on the MiniSpeedster's 'Flight Test' design"]
     }
 ]

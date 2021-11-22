@@ -2,7 +2,7 @@
     <div>
         <section>
             <b-dropdown id="sortBy" class="mx-1">
-            <b-dropdown-item @click="sortByDate()">Sort By Date</b-dropdown-item>
+            <b-dropdown-item @click="sortByDate()">Sort By date</b-dropdown-item>
             <b-dropdown-item @click="sortByName()">Sort By Alphabetically</b-dropdown-item>
             </b-dropdown>
             <b-dropdown id="sortBy" class="mx-1" right text="Sort Project By Category">
@@ -34,7 +34,7 @@
 #projects_item{
     background-color: blue;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .projects_item_container{
         grid-template-columns: 1fr;
         justify-content: center;
