@@ -1,7 +1,7 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" variant="dark" >
-    <b-navbar-brand href="#">Juan José Londoño David</b-navbar-brand>
+  <b-navbar toggleable="lg" class="bg-transparent navbar-dark" style="colot:white">
+    <b-navbar-brand href="/">Juan José Londoño David</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -18,6 +18,7 @@
 <style scoped>
  a{
    text-decoration: none;
+   color:white
  }
  nav li:hover,
  nav li.router-link-active,

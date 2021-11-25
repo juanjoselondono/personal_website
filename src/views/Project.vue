@@ -12,9 +12,9 @@
                 <img class="software_Image" :src="Software.portrait" alt="">
             </b-col>
             <b-col md="6">
-                <b-card-body style="heigth:100%;padding:30px!important">
+                <b-card-body style="heigth:100%;padding:30px!important;color:black">
                 <b-card-text>
-                    <p style="align-self:center;text-align:center">{{Software.description}}</p>
+                    <p style="align-self:center;text-align:center;color:black">{{Software.description}}</p>
                     <p v-if="Software.website != null">Website <a  :href="Software.website">{{Software.website}}</a></p>
                     <p v-if="Software.repo != null">Repo Link <a  :href="Software.repo">{{Software.repo}}</a></p>
                 </b-card-text>
@@ -25,12 +25,12 @@
         </div>
         </div>
         <div v-if="videoURI != null">
-        <b-card no-body class="overflow-hidden"  style="background-color:gray;marginTop:5%;border:none">
+        <b-card no-body class="overflow-hidden" style="background-color:transparent ;marginTop:5%;border:none">
             <b-row no-gutters>
             <b-col md="6">
                 <iframe width="100%" height="315px" :src="videoURI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </b-col>
-            <b-col class="bg-dark" md="6" style="align-self:center;color:white">
+            <b-col class="bg-transparent" md="6" style="align-self:center;color:white">
                 <b-card-body :title="Description">
                 </b-card-body>
                 <p v-if="github_link != null">Repo Link <a  :href="github_link">{{github_link}}</a></p>
@@ -39,7 +39,7 @@
         </b-card>
         </div>
         <div>
-        <b-card v-if="sliderImages != null" no-body class="overflow-hidden bg-dark" style="max-width: 100%;margin-top:5%;margin-bottom:5%">
+        <b-card v-if="sliderImages != null" no-body class="overflow-hidden bg-transparent" style="max-width: 100%;margin-top:5%;margin-bottom:5%">
             <b-row no-gutters>
             <b-col md="6">
                 <div>
@@ -95,7 +95,7 @@
         list-style: none;
         padding: 0;
         color: white;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .software_Image{
         width: 300px;

@@ -11,17 +11,17 @@
     }
     ]"/>
     <div style="margin:5%;">
-      <b-card no-body class="overflow-hidden" style="padding; border-radius: 30px;">
+      <b-card no-body class="overflow-hidden" style="padding;background-color:transparent;border:none">
         <b-row no-gutters>
           <b-col md="6" class="image_container">
             <b-card-img src="./assets/images/profile.jpg" alt="Image" class="info_image" style=""></b-card-img>
           </b-col>
           <b-col md="6" class="info">
             <b-card-body title="Hello! I Am Juan Londoño" class="description container">
-              <b-card-text style="text-align:left">
+              <b-card-text style="text-align:left;color:white">
                 I am a colombian mechatronic engineering student at <a href="https://www.eia.edu.co/">Universidad EIA</a> who loves to share Ideas with others. Send me your ideas and thoughts to juanjoselondonodavid@gmail.com.
                 <p style="color:gray;font-size:0.8em; margin-top:5%">
-                  Also I enjoy music considerably. Check out my <a href="https://open.spotify.com/artist/1lBJ8VUYZ0xpTBIkHV93Nx?si=0QvA9iUIQiq6fgpMV5_SmQ">Spotify Profile</a> where I publish some of my songs
+                  I also enjoy music considerably. Check out my <a href="https://open.spotify.com/artist/1lBJ8VUYZ0xpTBIkHV93Nx?si=0QvA9iUIQiq6fgpMV5_SmQ">Spotify Profile</a> where I publish some of my songs
                 </p>
               </b-card-text>
             </b-card-body>
@@ -71,6 +71,9 @@
   -webkit-box-shadow: 0px 5px 19px 8px rgba(0, 0, 0, 0.96); 
   box-shadow: 0px 5px 19px 8px rgba(0, 0, 0, 0.96);
   border-radius: 30px;
+}
+.card-title{
+  color:white
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

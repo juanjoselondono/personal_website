@@ -32,7 +32,7 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -64,7 +64,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 10vh;
+  font-size: 9.8vh;
   animation: reveal 3000ms ease-in-out forwards 200ms,
              glow 2500ms linear infinite 2000ms;
 }  
