@@ -4,6 +4,8 @@ import { BootstrapVue, BIcon, BIconInstagram, BIconTwitter, BIconTelephone, BIco
 import VueRouter from 'vue-router';
 import router from './router/index'
 import VueParticles from 'vue-particles'
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta)
 Vue.use(VueParticles)
 Vue.use(VueRouter);
 // Import Bootstrap an BootstrapVue CSS files (order is important)

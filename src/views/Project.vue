@@ -57,12 +57,19 @@
                     <b-carousel-slide :img-src="sliderImages[0]"></b-carousel-slide>
                     <b-carousel-slide :img-src="sliderImages[1]" v-if="sliderImages != null && sliderImages[1] != null"></b-carousel-slide>
                     <b-carousel-slide :img-src="sliderImages[2]" v-if="sliderImages != null && sliderImages[2] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[3]" v-if="sliderImages != null && sliderImages[3] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[4]" v-if="sliderImages != null && sliderImages[4] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[5]" v-if="sliderImages != null && sliderImages[5] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[6]" v-if="sliderImages != null && sliderImages[6] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[7]" v-if="sliderImages != null && sliderImages[7] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[8]" v-if="sliderImages != null && sliderImages[8] != null"></b-carousel-slide>
+                    <b-carousel-slide :img-src="sliderImages[9]" v-if="sliderImages != null && sliderImages[9] != null"></b-carousel-slide>
                     </b-carousel>
                 </div>
             </b-col>
             <b-col md="6">
             <b-list-group style="margin-top:5%" v-if="spec != null">
-                <h3 style="color:white;font-size:3em;margin-bottom:1.5%">Specs</h3>
+                <h3 style="color:white;font-size:3em;margin-bottom:1.5%" v-if="doNotShowSpecsTitle = null">Specs</h3>
                 <ul class="specs_container" id="specs">
             </ul>
             </b-list-group>
@@ -71,7 +78,6 @@
         </b-card>
         </div>
     </div>
- 
 </template>
 
 <style scoped>
@@ -117,7 +123,8 @@ export default {
             spec:'',
             github_link:'',
             sliderImages:'',
-            Software:''
+            Software:'',
+            doNotShowSpecsTitle:''
         }
     },
     mounted(){
@@ -137,6 +144,7 @@ export default {
                     this.github_link = element.Repository
                     this.sliderImages = element.sliderImages
                     this.Software = element.Software
+                    this.doNotShowSpecsTitle = element.doNotShowSpecsTitle
                     if(element.Specs != null){
                         element.Specs.forEach((spec)=>{
                             var node = document.createElement(`li`)                 // Create a <li> node
@@ -147,6 +155,9 @@ export default {
                 }
             });
         }
+    },
+    metaInfo: {
+        title: name
     }
 }
 </script>

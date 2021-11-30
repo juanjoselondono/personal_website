@@ -92,6 +92,17 @@ export default {
     return {
       publicPath: process.env.BASE_URL
     }
+  },
+  metaInfo: {
+    title: 'Juan Londoño | Welcome to my portfolio',
+    meta: [
+      { name: 'description', 
+        content: 'I am a colombian mechatronic engineering student at Universidad EIA who loves to share Ideas with others and Build great Things. I am also an IOT engineer and a full stack developer.' 
+      },
+      { name: 'keywords', 
+        content: 'software developer portfolio, Mechatronic Engineer, Mechatronics, Engineer, Juan José Londoño David' 
+      }
+    ]
   }
 }
 </script>

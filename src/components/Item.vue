@@ -59,7 +59,8 @@
     const MINI_SPEEDSTER = new Item('../assets/projects-images/MINI_SPEEDSTER/speedster.jpg', `MINISPEEDSTER`, '2/20/10', ['Planes'], 'Minispeedster Plane')
     const SMART_GLIDER = new Item('../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png', 'Smart Glider', '2/10/2021', ['Planes','3D Design'], 'Smart Glider')
     const ROBOCAR = new Item('../assets/projects-images/TRG_car/TRG_CAR.jpg', 'Arduino Rover with an FPV (First-person view) System', '2/8/2020', ['Robots'], 'TRG Rover')
-    const projects = [FIGHTER_JET, REMEMBER_ME,BRUNO, MINI_SPEEDSTER, SMART_GLIDER, ROBOCAR];
+    const SR72 = new Item('../assets/projects-images/SR72/SR72 Desert.png', 'SR72 Plane', '29/11/2021', ['Planes'], 'SR72')
+    const projects = [FIGHTER_JET, REMEMBER_ME,BRUNO, MINI_SPEEDSTER, SMART_GLIDER, ROBOCAR, SR72];
     function buildObjects(object){
         var node = document.createElement(`a`)                 // Create a <li> node
         node.classList.add('projects_item');
@@ -97,7 +98,16 @@
 export default {
     name:'Item',
     mounted(){
-        projects.forEach(element => buildObjects(element))
+        var sort = projects.sort(function(a, b) {
+        var dateA = new Date(a.date), dateB = new Date(b.date);
+            return dateA - dateB;
+        });
+        var node = document.getElementById('projects');
+        sort.reverse()
+        node.innerHTML = '';
+        sort.forEach(element =>{
+            buildObjects(element);
+        })
     },
   methods: {
     sortByName() {

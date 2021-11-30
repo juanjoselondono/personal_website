@@ -45,7 +45,7 @@
         "Author": "Juan José Londoño David",
         "Images":"../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png",
         "sliderImages":["../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider2.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider3.png","../../assets/projects-images/PLANE_CONCEPTS/SMARTGLIDER/SmartGlider.png"],
-        "Specs": ["2.4Hz Fly Sky Controller", "50cm Wing Span", "Foamboard Fuselage", "A2212 Brushless Motor", "8x4,5 Propeller"]
+        "Specs": ["This Glider concept has a beautiful modern Design. It's based on birds aerodynamics. It's cockpit is made of Graphene which gives a full view of the landscape to it's passagers"]
     },
     {
         "name":"Minispeedster Plane",
@@ -53,5 +53,12 @@
         "Author": "Juan José Londoño David",
         "sliderImages": ["../../assets/projects-images/MINI_SPEEDSTER/speedster.jpg"],
         "Specs":["RC cardboard plane based on the MiniSpeedster's 'Flight Test' design"]
+    },
+    {
+        "name":"SR72",
+        "Images": "../../assets/projects-images/SR72/SR72 Desert.png",
+        "sliderImages":["../../assets/projects-images/SR72/SR72 desert back.png", "../../assets/projects-images/SR72/SR72 Flying.png", "../../assets/projects-images/SR72/SR72 v2.png", "../../assets/projects-images/SR72/frame.0.png","../../assets/projects-images/SR72/frame.1.png", "../../assets/projects-images/SR72/frame.2.png", "../../assets/projects-images/SR72/frame.3.png", "../../assets/projects-images/SR72/frame.4.png"],
+        "Specs":["This concept is a more futurist version of The Lockheed Martin SR-72,known as the 'Blackbird sucesor', is an American hypersonic UAV concept intended for intelligence, surveillance and reconnaissance proposed privately in 2013 by Lockheed Martin as a successor to the retired Lockheed SR-71 Blackbird."],
+        "doNotShowSpecsTitle":true
     }
 ]
